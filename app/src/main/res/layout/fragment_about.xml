@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="121dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:paddingTop="10dp"
+        app:srcCompat="@drawable/christ_tras" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/imageView"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:fontFamily="sans-serif-medium"
+        android:text=" Get to know more about Christ University\n
+Kengeri Campus through this app.\n
+This App contains the Map, List of places\n
+and Description of the places available in\n
+Christ University Kengeri Campus.\n\n\n\n
+This App was created to submit as a\n
+Project for Programming Paradigm CIA-3\n
+Component for 4BTCS-C (2020-2021).\n\n\n
+Contributors:\n
+1960401-Vishvanth S\n
+1960399-Varadh VI\n
+1960394-Tenzin Namsey\n
+1960404-Sai Ganesh\n
+Submitted to: Jyothi Mandala(Faculty)"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="normal"
+        android:layout_gravity="center"/>
+
+
+</FrameLayout>
